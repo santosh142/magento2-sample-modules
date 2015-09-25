@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+     <update handle="editor"/>
+    <body>
+	   <referenceContainer name="content">
+            <block class="YourCompanyName\BackendGrid\Block\Adminhtml\ModelName\Edit" name="backendgrid_modelname_edit"/>
+        </referenceContainer>
+		 <referenceContainer name="left">
+            <block class="YourCompanyName\BackendGrid\Block\Adminhtml\ModelName\Edit\Tabs" name="backendgrid_modelname_edit_tabs">
+				<block class="YourCompanyName\BackendGrid\Block\Adminhtml\ModelName\Edit\Tab\General" name="backendgrid_modelname_edit_tab_general"/>
+				 <action method="addTab">
+                    <argument name="name" xsi:type="string">general_section</argument>
+                    <argument name="block" xsi:type="string">backendgrid_modelname_edit_tab_general</argument>
+                </action>
+			</block>
+        </referenceContainer>
+    </body>
+</page>
