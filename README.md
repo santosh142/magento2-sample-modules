@@ -1,4 +1,6 @@
 # magento2-sample-modules
 ## Sample Modules For Magento2
 ### HelloWorld Module:
-By this module you can see how to render  phtml file of your controller
+Example module for rendering phtml file for frontend controller
+### BackendGrid Module:
+Example Module for creating admin grid with model
