@@ -1,0 +1,19 @@
+{
+  "name": "yourcompanyname/module-simplepaymentmodule",
+  "description": "Magento 2 SimplePaymentModule",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "php": "~5.5.0|~5.6.0",
+    "magento/magento-composer-installer": "*"
+  },
+  "minimum-stability": "dev",
+  "extra": {
+        "map": [
+            [
+                "*",
+                "YourCompanyName\SimplePaymentModule"
+            ]
+        ]
+    }
+}
